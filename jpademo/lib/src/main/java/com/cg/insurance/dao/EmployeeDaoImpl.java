@@ -42,7 +42,7 @@ public class EmployeeDaoImpl implements IEmployeeDao {
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("JPA-PU");
 		EntityManager em = emf.createEntityManager();
 		em.getTransaction().begin();
-		Employee emp = em.find(Employee.class, 9);
+		Employee emp = em.find(Employee.class, id);
 		em.getTransaction().commit();
 		emf.close();
 		em.close();
@@ -74,7 +74,7 @@ public class EmployeeDaoImpl implements IEmployeeDao {
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("JPA-PU");
 		EntityManager em = emf.createEntityManager();
 		em.getTransaction().begin();
-		Employee emp = em.find(Employee.class, 9);
+		Employee emp = em.find(Employee.class, id);
 		em.remove(emp);
 		em.getTransaction().commit();
 		emf.close();

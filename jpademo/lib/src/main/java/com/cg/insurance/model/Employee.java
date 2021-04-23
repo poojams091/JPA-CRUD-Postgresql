@@ -1,9 +1,13 @@
 package com.cg.insurance.model;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
 
 /*
  * In this package, create “Employee” class with different attributes such as
@@ -20,6 +24,12 @@ public class Employee {
 	private double salary;
 	private String designation;
 	private String insuranceScheme;
+	
+	/*
+	@OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+	@JoinColumn(name="address_id")
+	private Address address;
+	*/
 	
 	// Constructors
 	public Employee() {}
@@ -81,6 +91,16 @@ public class Employee {
 		this.insuranceScheme = insuranceScheme;
 	}
 	
+	/*
+	public Address getAddress() {
+		return address;
+	}
+
+	public void setAddress(Address address) {
+		this.address = address;
+	}
+	*/
+
 	// toString()
 	@Override
 	public String toString() {
