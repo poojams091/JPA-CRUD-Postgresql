@@ -1,0 +1,196 @@
+[INFO ] 2021-04-26 12:24:23.498 [main] class - Instantiated MyApp.
+4[INFO ] 2021-04-26 12:24:23.526 [main] MainUtils - Instantiated EmployeeService instance
+4[INFO ] 2021-04-26 12:24:23.527 [main] MainUtils - User Selected option
+4[WARN ] 2021-04-26 12:28:21.505 [main] ProviderChecker - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+4[INFO ] 2021-04-26 12:28:21.520 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: JPA-PU]
+4[INFO ] 2021-04-26 12:28:21.634 [main] Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+4[INFO ] 2021-04-26 12:28:22.032 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+4[WARN ] 2021-04-26 12:28:22.441 [main] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+4[INFO ] 2021-04-26 12:28:22.449 [main] pooling - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/employeedb]
+4[INFO ] 2021-04-26 12:28:22.450 [main] pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+4[INFO ] 2021-04-26 12:28:22.451 [main] pooling - HHH10001003: Autocommit mode: false
+4[INFO ] 2021-04-26 12:28:22.457 [main] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+4[INFO ] 2021-04-26 12:28:23.006 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4[INFO ] 2021-04-26 12:28:25.929 [main] access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@385dfb63] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+4[INFO ] 2021-04-26 12:28:25.997 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4[INFO ] 2021-04-26 12:28:26.616 [main] pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/employeedb]
+4[WARN ] 2021-04-26 12:28:26.873 [main] ProviderChecker - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+4[INFO ] 2021-04-26 12:28:26.873 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: JPA-PU]
+4[WARN ] 2021-04-26 12:28:26.902 [main] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+4[INFO ] 2021-04-26 12:28:26.903 [main] pooling - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/employeedb]
+4[INFO ] 2021-04-26 12:28:26.903 [main] pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+4[INFO ] 2021-04-26 12:28:26.904 [main] pooling - HHH10001003: Autocommit mode: false
+4[INFO ] 2021-04-26 12:28:26.904 [main] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+4[INFO ] 2021-04-26 12:28:26.963 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4[INFO ] 2021-04-26 12:28:27.438 [main] access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@78116659] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+4[INFO ] 2021-04-26 12:28:27.480 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4[INFO ] 2021-04-26 12:28:27.731 [main] pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/employeedb]
+4[WARN ] 2021-04-26 12:28:27.759 [main] ProviderChecker - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+4[INFO ] 2021-04-26 12:28:27.759 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: JPA-PU]
+4[WARN ] 2021-04-26 12:28:27.787 [main] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+4[INFO ] 2021-04-26 12:28:27.787 [main] pooling - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/employeedb]
+4[INFO ] 2021-04-26 12:28:27.788 [main] pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+4[INFO ] 2021-04-26 12:28:27.788 [main] pooling - HHH10001003: Autocommit mode: false
+4[INFO ] 2021-04-26 12:28:27.788 [main] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+4[INFO ] 2021-04-26 12:28:27.851 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4[INFO ] 2021-04-26 12:28:28.368 [main] access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1b17d8ab] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+4[INFO ] 2021-04-26 12:28:28.411 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4[INFO ] 2021-04-26 12:28:28.426 [main] pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/employeedb]
+4[WARN ] 2021-04-26 12:34:45.499 [main] ProviderChecker - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+4[INFO ] 2021-04-26 12:34:45.533 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: JPA-PU]
+4[INFO ] 2021-04-26 12:34:45.718 [main] Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+4[INFO ] 2021-04-26 12:34:46.077 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+4[WARN ] 2021-04-26 12:34:46.424 [main] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+4[INFO ] 2021-04-26 12:34:46.433 [main] pooling - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/employeedb]
+4[INFO ] 2021-04-26 12:34:46.434 [main] pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+4[INFO ] 2021-04-26 12:34:46.434 [main] pooling - HHH10001003: Autocommit mode: false
+4[INFO ] 2021-04-26 12:34:46.440 [main] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+4[INFO ] 2021-04-26 12:34:46.865 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4[INFO ] 2021-04-26 12:34:48.389 [main] access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5fdfe8cf] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+4[INFO ] 2021-04-26 12:34:48.439 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4[INFO ] 2021-04-26 12:34:48.776 [main] pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/employeedb]
+4[WARN ] 2021-04-26 12:34:48.821 [main] ProviderChecker - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+4[INFO ] 2021-04-26 12:34:48.821 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: JPA-PU]
+4[WARN ] 2021-04-26 12:34:48.857 [main] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+4[INFO ] 2021-04-26 12:34:48.857 [main] pooling - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/employeedb]
+4[INFO ] 2021-04-26 12:34:48.858 [main] pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+4[INFO ] 2021-04-26 12:34:48.858 [main] pooling - HHH10001003: Autocommit mode: false
+4[INFO ] 2021-04-26 12:34:48.858 [main] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+4[INFO ] 2021-04-26 12:34:48.929 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4[INFO ] 2021-04-26 12:34:49.382 [main] access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@87f501f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+4[INFO ] 2021-04-26 12:34:49.423 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4[INFO ] 2021-04-26 12:34:49.457 [main] pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/employeedb]
+4[WARN ] 2021-04-26 12:34:49.477 [main] ProviderChecker - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+4[INFO ] 2021-04-26 12:34:49.478 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: JPA-PU]
+4[WARN ] 2021-04-26 12:34:49.509 [main] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+4[INFO ] 2021-04-26 12:34:49.510 [main] pooling - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/employeedb]
+4[INFO ] 2021-04-26 12:34:49.511 [main] pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+4[INFO ] 2021-04-26 12:34:49.511 [main] pooling - HHH10001003: Autocommit mode: false
+4[INFO ] 2021-04-26 12:34:49.511 [main] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+4[INFO ] 2021-04-26 12:34:49.568 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4[INFO ] 2021-04-26 12:34:49.979 [main] access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2ee92e7d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+4[INFO ] 2021-04-26 12:34:50.022 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4[INFO ] 2021-04-26 12:34:50.044 [main] pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/employeedb]
+4[WARN ] 2021-04-26 12:34:50.054 [main] ProviderChecker - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+4[INFO ] 2021-04-26 12:34:50.055 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: JPA-PU]
+4[WARN ] 2021-04-26 12:34:50.087 [main] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+4[INFO ] 2021-04-26 12:34:50.087 [main] pooling - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/employeedb]
+4[INFO ] 2021-04-26 12:34:50.088 [main] pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+4[INFO ] 2021-04-26 12:34:50.088 [main] pooling - HHH10001003: Autocommit mode: false
+4[INFO ] 2021-04-26 12:34:50.088 [main] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+4[INFO ] 2021-04-26 12:34:50.247 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4[INFO ] 2021-04-26 12:34:50.668 [main] access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6b9697ae] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+4[INFO ] 2021-04-26 12:34:50.724 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4[INFO ] 2021-04-26 12:34:50.731 [main] pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/employeedb]
+4[WARN ] 2021-04-26 12:34:50.750 [main] ProviderChecker - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+4[INFO ] 2021-04-26 12:34:50.750 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: JPA-PU]
+4[WARN ] 2021-04-26 12:34:50.790 [main] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+4[INFO ] 2021-04-26 12:34:50.791 [main] pooling - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/employeedb]
+4[INFO ] 2021-04-26 12:34:50.791 [main] pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+4[INFO ] 2021-04-26 12:34:50.792 [main] pooling - HHH10001003: Autocommit mode: false
+4[INFO ] 2021-04-26 12:34:50.792 [main] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+4[INFO ] 2021-04-26 12:34:50.893 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4[INFO ] 2021-04-26 12:34:51.520 [main] access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3ba3f40d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+4[INFO ] 2021-04-26 12:34:51.574 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4[INFO ] 2021-04-26 12:34:51.584 [main] pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/employeedb]
+4[WARN ] 2021-04-26 12:44:34.245 [main] ProviderChecker - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+4[INFO ] 2021-04-26 12:44:34.272 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: JPA-PU]
+4[INFO ] 2021-04-26 12:44:34.470 [main] Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+4[INFO ] 2021-04-26 12:44:35.060 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+4[WARN ] 2021-04-26 12:44:35.629 [main] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+4[INFO ] 2021-04-26 12:44:35.637 [main] pooling - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/employeedb]
+4[INFO ] 2021-04-26 12:44:35.638 [main] pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+4[INFO ] 2021-04-26 12:44:35.638 [main] pooling - HHH10001003: Autocommit mode: false
+4[INFO ] 2021-04-26 12:44:35.644 [main] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+4[INFO ] 2021-04-26 12:44:36.245 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4[INFO ] 2021-04-26 12:44:53.125 [main] class - Instantiated MyApp.
+4[INFO ] 2021-04-26 12:44:53.165 [main] MainUtils - Instantiated EmployeeService instance
+4[INFO ] 2021-04-26 12:44:53.166 [main] MainUtils - User Selected option
+4[INFO ] 2021-04-26 12:44:59.567 [main] MainUtils - Case 1 choosen
+4[INFO ] 2021-04-26 12:45:26.679 [main] MainUtils - Created employee object with user input details
+4[WARN ] 2021-04-26 12:45:27.054 [main] ProviderChecker - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+4[INFO ] 2021-04-26 12:45:27.084 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: JPA-PU]
+4[INFO ] 2021-04-26 12:45:27.374 [main] Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+4[INFO ] 2021-04-26 12:45:27.975 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+4[WARN ] 2021-04-26 12:45:28.637 [main] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+4[INFO ] 2021-04-26 12:45:28.653 [main] pooling - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/employeedb]
+4[INFO ] 2021-04-26 12:45:28.653 [main] pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+4[INFO ] 2021-04-26 12:45:28.654 [main] pooling - HHH10001003: Autocommit mode: false
+4[INFO ] 2021-04-26 12:45:28.658 [main] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+4[INFO ] 2021-04-26 12:45:29.332 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4[INFO ] 2021-04-26 12:45:32.156 [main] access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7645f03e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+4[INFO ] 2021-04-26 12:45:32.222 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4[INFO ] 2021-04-26 12:45:32.502 [main] pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/employeedb]
+4[INFO ] 2021-04-26 12:45:32.504 [main] MainUtils - Saved employee object successfully!
+4[INFO ] 2021-04-26 13:11:54.924 [main] class - Instantiated MyApp.
+4[INFO ] 2021-04-26 13:11:54.974 [main] MainUtils - Instantiated EmployeeService instance
+4[INFO ] 2021-04-26 13:12:00.574 [main] MainUtils - User Selected option %d
+4[INFO ] 2021-04-26 13:12:58.691 [main] class - Instantiated MyApp.
+4[INFO ] 2021-04-26 13:12:58.758 [main] MainUtils - Instantiated EmployeeService instance
+4[INFO ] 2021-04-26 13:13:01.339 [main] MainUtils - User Selected option 1
+4[INFO ] 2021-04-26 13:13:38.990 [main] MainUtils - Created employee object with user input details
+4[WARN ] 2021-04-26 13:13:39.321 [main] ProviderChecker - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+4[INFO ] 2021-04-26 13:13:39.334 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: JPA-PU]
+4[INFO ] 2021-04-26 13:13:39.477 [main] Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+4[INFO ] 2021-04-26 13:13:39.785 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+4[WARN ] 2021-04-26 13:13:40.476 [main] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+4[INFO ] 2021-04-26 13:13:40.492 [main] pooling - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/employeedb]
+4[INFO ] 2021-04-26 13:13:40.493 [main] pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+4[INFO ] 2021-04-26 13:13:40.495 [main] pooling - HHH10001003: Autocommit mode: false
+4[INFO ] 2021-04-26 13:13:40.505 [main] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+4[INFO ] 2021-04-26 13:13:41.308 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4[INFO ] 2021-04-26 13:13:43.475 [main] access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@ef718de] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+4[INFO ] 2021-04-26 13:13:43.522 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4[INFO ] 2021-04-26 13:13:43.765 [main] pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/employeedb]
+4[INFO ] 2021-04-26 13:13:43.767 [main] MainUtils - employee object saved successfully!
+4[INFO ] 2021-04-26 13:17:19.051 [main] class - Instantiated MyApp.
+4[INFO ] 2021-04-26 13:17:19.113 [main] MainUtils - Instantiated EmployeeService instance
+4[INFO ] 2021-04-26 13:17:22.819 [main] MainUtils - User Selected option 1
+4[INFO ] 2021-04-26 13:17:39.691 [main] MainUtils - Created employee object with user input details
+4[WARN ] 2021-04-26 13:17:40.011 [main] ProviderChecker - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+4[INFO ] 2021-04-26 13:17:40.026 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: JPA-PU]
+4[INFO ] 2021-04-26 13:17:40.159 [main] Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+4[INFO ] 2021-04-26 13:17:40.559 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+4[WARN ] 2021-04-26 13:17:41.165 [main] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+4[INFO ] 2021-04-26 13:17:41.176 [main] pooling - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/employeedb]
+4[INFO ] 2021-04-26 13:17:41.177 [main] pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+4[INFO ] 2021-04-26 13:17:41.178 [main] pooling - HHH10001003: Autocommit mode: false
+4[INFO ] 2021-04-26 13:17:41.184 [main] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+4[INFO ] 2021-04-26 13:17:41.741 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4[INFO ] 2021-04-26 13:17:44.201 [main] access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@ef718de] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+4[INFO ] 2021-04-26 13:17:44.250 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4[INFO ] 2021-04-26 13:17:44.514 [main] pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/employeedb]
+4[INFO ] 2021-04-26 13:17:44.516 [main] MainUtils - employee Ravi Kumar saved successfully!
+4[INFO ] 2021-04-26 13:23:08.658 [main] class - Instantiated MyApp.
+4[INFO ] 2021-04-26 13:23:08.728 [main] MainUtils - Instantiated EmployeeService instance
+4[INFO ] 2021-04-26 13:23:11.270 [main] MainUtils - User Selected option 3
+4[WARN ] 2021-04-26 13:23:15.347 [main] ProviderChecker - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+4[INFO ] 2021-04-26 13:23:15.364 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: JPA-PU]
+4[INFO ] 2021-04-26 13:23:15.508 [main] Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+4[INFO ] 2021-04-26 13:23:15.843 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+4[WARN ] 2021-04-26 13:23:16.392 [main] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+4[INFO ] 2021-04-26 13:23:16.405 [main] pooling - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/employeedb]
+4[INFO ] 2021-04-26 13:23:16.406 [main] pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+4[INFO ] 2021-04-26 13:23:16.406 [main] pooling - HHH10001003: Autocommit mode: false
+4[INFO ] 2021-04-26 13:23:16.413 [main] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+4[INFO ] 2021-04-26 13:23:17.005 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4[INFO ] 2021-04-26 13:23:19.428 [main] access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@78d71df1] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+4[INFO ] 2021-04-26 13:23:19.479 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4[INFO ] 2021-04-26 13:23:19.712 [main] pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/employeedb]
+4[INFO ] 2021-04-26 13:23:59.153 [main] class - Instantiated MyApp.
+4[INFO ] 2021-04-26 13:23:59.204 [main] MainUtils - Instantiated EmployeeService instance
+4[INFO ] 2021-04-26 13:24:01.320 [main] MainUtils - User Selected option 3
+4[WARN ] 2021-04-26 13:24:04.095 [main] ProviderChecker - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+4[INFO ] 2021-04-26 13:24:04.109 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: JPA-PU]
+4[INFO ] 2021-04-26 13:24:04.235 [main] Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+4[INFO ] 2021-04-26 13:24:04.639 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+4[WARN ] 2021-04-26 13:24:05.776 [main] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+4[INFO ] 2021-04-26 13:24:05.790 [main] pooling - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/employeedb]
+4[INFO ] 2021-04-26 13:24:05.792 [main] pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+4[INFO ] 2021-04-26 13:24:05.793 [main] pooling - HHH10001003: Autocommit mode: false
+4[INFO ] 2021-04-26 13:24:05.798 [main] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+4[INFO ] 2021-04-26 13:24:06.774 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4[INFO ] 2021-04-26 13:24:09.219 [main] access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7645f03e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+4[INFO ] 2021-04-26 13:24:09.279 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4[INFO ] 2021-04-26 13:24:09.499 [main] pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/employeedb]
+4

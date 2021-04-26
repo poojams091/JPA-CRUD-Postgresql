@@ -11,25 +11,31 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.MethodOrderer;
+import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestMethodOrder;
 
+import com.cg.insurance.exception.EmployeeNotFoundException;
 import com.cg.insurance.model.Employee;
 import com.cg.insurance.service.EmployeeServiceImpl;
 import com.cg.insurance.service.IEmployeeService;
 
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 class EmployeeTest {
 
+	IEmployeeService empService;
+	
 	@BeforeEach
 	void setUp() throws Exception {
-		System.out.println("setup");
+		 empService = new EmployeeServiceImpl();
 	}
 
 	@AfterEach
 	void tearDown() throws Exception {
-		System.out.println("tearDown");
+		empService = null;
 	}
 
-	
 	/*
 	 * private int id;
 
@@ -40,39 +46,39 @@ class EmployeeTest {
 	 */
 	
 	@Test
-	@Disabled
+	@Order(2)
 	void testShouldAddEmployee() {
-		IEmployeeService empService = new EmployeeServiceImpl();
-		
+		//IEmployeeService empService = new EmployeeServiceImpl();		
 		Employee emp = new Employee();
-		emp.setName("Ram");
-		emp.setDesignation("Software Engineer");
-		emp.setSalary(40000.00);
-		emp.setInsuranceScheme("SchemeA");
+		emp.setName("Ramesh");
+		emp.setDesignation("System Associate");
+		emp.setSalary(16000.00);
+		emp.setInsuranceScheme("Scheme C");
 		
 		Employee persistedEmp = empService.save(emp);
 		System.out.println(persistedEmp);
 		
-		assertEquals("Ram", persistedEmp.getName());
-		assertEquals("Software Engineer", persistedEmp.getDesignation());
-		assertEquals(40000.00, persistedEmp.getSalary());
-		assertEquals("SchemeA", persistedEmp.getInsuranceScheme());
+		assertAll(
+		() -> assertEquals("Ramesh", persistedEmp.getName()),
+		() -> assertEquals("System Associate", persistedEmp.getDesignation()),
+		() -> assertEquals(16000.00, persistedEmp.getSalary()),
+		() ->assertEquals("Scheme C", persistedEmp.getInsuranceScheme()));
 		
 	}
 	
 	@Test
 	@Disabled
+	@Order(5)
 	void testShouldDeleteEmployeeById() {
-		IEmployeeService empService = new EmployeeServiceImpl();
-		Employee emp = empService.deleteEmployeeById(9);
-		assertEquals(9, emp.getId());
+		Employee emp = empService.deleteEmployeeById(30);
+		assertEquals(30, emp.getId());
 	}
 	
 	@Test
+	@Order(1)
 	void testShouldGetAllEmployees() {
-		IEmployeeService empService = new EmployeeServiceImpl();
 		List<Employee> employees = empService.getAllEmployees();
-		assertEquals(3, employees.size());
+		assertEquals(11, employees.size());
 		
 		/*
 		Employee emp1 = empService.getEmployeeById(9);
@@ -88,27 +94,26 @@ class EmployeeTest {
 	
 	
 	@Test
-	@Disabled
+	
+	@Order(4)
 	void testShoudlUpdateEmployee() {
-		IEmployeeService empService = new EmployeeServiceImpl();
 		Employee emp = new Employee();
-		emp.setId(10);
-		emp.setName("Ram Kumar");
-		emp.setDesignation("Software Engineer");
-		emp.setInsuranceScheme("SchemeB");
-		emp.setSalary(45000.00);
+		emp.setId(30);
+		emp.setName("Ramesh");
+		emp.setDesignation("System Associate");
+		emp.setSalary(18000.00);
+		emp.setInsuranceScheme("Scheme C");
 		
 		Employee updatedEmp = empService.updateEmployee(emp);
 		System.out.println(updatedEmp);
-		assertEquals(45000.00, updatedEmp.getSalary());
+		assertEquals(15000.00, updatedEmp.getSalary());
 	}
 	
 	@Test
-	@Disabled
-	void testShouldGetEmployeeById() {
-		IEmployeeService empService = new EmployeeServiceImpl();
-		Employee emp = empService.getEmployeeById(9);
-		assertEquals("Ram", emp.getName());
+	@Order(3)
+	void testShouldGetEmployeeById() throws EmployeeNotFoundException {
+		Employee emp = empService.getEmployeeById(30);
+		assertEquals("Ramesh", emp.getName());
 	}
 	
 	/*

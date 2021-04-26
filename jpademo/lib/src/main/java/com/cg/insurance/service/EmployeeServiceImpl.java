@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.cg.insurance.dao.EmployeeDaoImpl;
 import com.cg.insurance.dao.IEmployeeDao;
+import com.cg.insurance.exception.EmployeeNotFoundException;
 import com.cg.insurance.model.Employee;
 
 public class EmployeeServiceImpl implements IEmployeeService {
@@ -21,7 +22,10 @@ public class EmployeeServiceImpl implements IEmployeeService {
 	}
 
 	@Override
-	public Employee getEmployeeById(int id) {
+	public Employee getEmployeeById(int id) throws EmployeeNotFoundException {
+		if(empDao.getEmployeeById(id) == null) {
+			throw new EmployeeNotFoundException("Employee not found with id: "+id);
+		}
 		return empDao.getEmployeeById(id);
 	}
 
